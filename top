@@ -1,4 +1,12 @@
-body {
+	<body><div class="top">
+				<div class="item a"><a href="index.html">Home</a></div>
+				<div class="item b"><a href="vid.html">video</a></div>
+				<div class="item c"><a href="Soutces.html">more info</a></div>
+				<div class="item d"><a href="why.html">why cpr</a></div>
+	</div>
+    
+    
+    body {
 	width: 100vw;
 	height: 100vh;
 	margin: 0;
@@ -20,26 +28,6 @@ body {
 	height: 100%;
 	width: 25%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-.hold {
-    height:25%;
-    width: 100%;
-    display: flex;
-}
-.vid {
-    height: 50%;
-    width: 100%;
-	display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.half {
-    height: 100%;
-    width: 50%;
-	display: flex;
     align-items: center;
     justify-content: center;
 }

@@ -1,4 +1,4 @@
-body {
+   body {
 	width: 100vw;
 	height: 100vh;
 	margin: 0;
@@ -22,24 +22,19 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
-.hold {
-    height:25%;
+
+.t {
+    height: 12.5%;
     width: 100%;
     display: flex;
+     align-items: center;
+    justify-content: center;
 }
-.vid {
-    height: 50%;
+.h {
+    height: 87.5%;
     width: 100%;
-	display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.half {
-    height: 100%;
-    width: 50%;
-	display: flex;
-    align-items: center;
-    justify-content: center;
+    display:flex;
+    align-items:flex-start;
+    justify-content:flex-start;
 }

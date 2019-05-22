@@ -1,0 +1,108 @@
+body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	display: block;
+}
+.con {
+  font-size: 5vw;
+    font-weight: bold
+}
+
+
+
+.info {
+	height: 82.5%;
+	width: 100%;
+	display: block;
+    margin: 0;
+
+
+}
+
+.container {
+	height: calc(100%/3);
+	width: 100%;
+	display: flex;
+
+}
+.content {
+    align-items: center;
+	justify-content: center;
+}
+.box {
+	height: 100%;
+	width: 50%;
+	display: block;
+}
+.size {
+	max-height: 95%;
+	max-width: 95%;
+}
+.pic {
+	height: 100%;
+	width: 100%;
+	display: flex;
+    align-items: center;
+	justify-content: center;
+
+}
+
+.text {
+	height: 100%;
+	width: 100%;
+	display: flex;
+    align-items: center;
+	justify-content: center;
+        
+
+}
+
+.top {
+	height: 17.5%;
+	width: 100%;
+	display: block;
+    background-color: red;
+}
+
+.header {
+	height: 42%;
+	width: 100%;
+	display: flex;
+
+}
+.half {
+    height: 100%;
+    width: 50%;
+    display: flex;
+
+}
+.menu {
+	height: 58%;
+	width: 100%;
+	display: flex;
+
+}
+
+.row {
+	height: 50%;
+	width: 100%;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+	height: 100%;
+	width: 20%;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 800px) {
+    .con {
+    font-size: 40px;
+    font-weight: bold;
+    }
+}

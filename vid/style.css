@@ -1,0 +1,36 @@
+.main{
+    	height: 82.5%;
+	width: 100%;
+	display: block;
+    margin: 0;
+}
+    .top {
+	height: 17.5%;
+	width: 100%;
+	display: flex;
+    background-color: red;
+}
+.item {
+	height: 100%;
+	width: 20%;
+    display: block;
+}
+.hold {
+    height:25%;
+    width: 100%;
+    display: flex;
+}
+.vid {
+    height: 50%;
+    width: 100%;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.half {
+    height: 100%;
+    width: 50%;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
